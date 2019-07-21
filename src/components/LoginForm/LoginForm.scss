@@ -1,0 +1,79 @@
+.LoginFormWrapper {
+  background-color: white;
+  color: #282c34;
+  box-shadow: 0 5px 28px rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  width: 700px;
+
+  @media only screen and (max-width: 760px) {
+    width: 350px;
+  }
+
+  .header {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px 5px 0 0;
+    font-size: 26px;
+    text-align: center;
+    background-image: url("../../assets/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 70px 15px 75px;
+    z-index: 1;
+
+    @media only screen and (max-width: 760px) {
+      padding: 30px 15px;
+    }
+
+
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(54,84,99,.7);
+      border-radius: 5px 5px 0 0;
+    }
+  }
+
+  .bodyWrapper {
+    padding: 45px 90px 60px;
+
+    @media only screen and (max-width: 760px) {
+      padding: 30px 40px 40px;
+    }
+
+    .linkWrapper {
+      text-align: right;
+      padding-bottom: 30px;
+
+      @media only screen and (max-width: 760px) {
+        text-align: center;
+      }
+
+      .link {
+        font-size: 14px;
+        color: #999;
+        cursor: pointer;
+        text-decoration: none;
+
+        &:hover {
+          color: #9ccc65;
+        }
+      }
+    }
+
+    .buttonWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
