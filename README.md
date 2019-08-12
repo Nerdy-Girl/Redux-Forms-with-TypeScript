@@ -1,6 +1,6 @@
 <p align="center">
   <h3 align="center">CodeMeNatalie</3>
-  <img src="http://codemenatalie.com/wp-content/uploads/2019/07/photo_2019-07-23_08-32-56.jpg" alt="redux form">
+  <img src="http://codemenatalie.com/wp-content/uploads/2019/07/redux-form.png" alt="redux form">
   <h3 align="center">Redux Forms with TypeScript</h3>
   <p align="center">This project is an example of working implementation of Redux Forms and TypeScript. Whole process is described in my article <a href="codemenatalie.com/blog/connecting-redux-form-and-connect" target="_blank">Connecting Redux Form and Connect</a>.</p>
   <p align="center">
